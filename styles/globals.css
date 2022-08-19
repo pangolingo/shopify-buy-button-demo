@@ -15,6 +15,12 @@ a {
   box-sizing: border-box;
 }
 
+.productContainer {
+  padding: 20px;
+  /* the product buy button doesn't support dark mode */
+  background-color: white;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
